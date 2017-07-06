@@ -1,0 +1,74 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Greek Wetland Kerkini Tour</string>
+
+    <!-- Category name for the vocabulary words for actions [CHAR LIMIT=20] -->
+    <string name="category_actions">How to be entertained?</string>
+
+    <!-- Category name for the vocabulary words for hotels [CHAR LIMIT=20] -->
+    <string name="category_hotels">Where will you sleep?</string>
+
+    <!-- Category name for the vocabulary words for food [CHAR LIMIT=20] -->
+    <string name="category_food">Where will you eat?</string>
+
+    <!-- Category name for photos [CHAR LIMIT=20] -->
+    <string name="category_photos">What will you see?</string>
+
+    <!-- Category name for info [CHAR LIMIT=200] -->
+    <string name="category_info">How to get there:
+From southern Greece, following the Athens National Highway, take the exit to Serres - Kavala. Follow the sign for Serres until the Kerkini Lake exit, Lithotopio where you turn left. From Thessaloniki, Lake Kerkini is 100 km away and you can easily reach Egnatia.</string>
+
+    <!-- Actions names and places to do them for ActionsActivity [CHAR LIMIT=200] -->
+    <string name="action_title_one">Time to see water buffaloes, herons and rare birds</string>
+    <string name="action_adress_one">...at Lake Kerkini</string>
+
+    <string name="action_title_two">Steam baths and hydrotherapy</string>
+    <string name="action_adress_two">...baths of Agistro, Sidirokastro or Thermra Nigrita</string>
+
+    <string name="action_title_three">Boating with plava</string>
+    <string name="action_adress_three">...at the sunset at Lake Kerkini</string>
+
+    <string name="action_title_four">Canoe</string>
+    <string name="action_adress_four">...between the water lilies and the wading forest</string>
+
+    <string name="action_title_five">Horseriding</string>
+    <string name="action_adress_five">...at Lake Kerkini</string>
+
+    <string name="action_title_six">Visit the Rupel Fort</string>
+    <string name="action_adress_six">...at Rupel mountain</string>
+
+    <string name="action_title_sev">Visit to the Alistratis Cave</string>
+    <string name="action_adress_sev">...at Alistratis village</string>
+
+    <string name="action_title_eight">Visit to the Aquarium of Vyronia</string>
+    <string name="action_adress_eight">...at Vyronia village</string>
+
+    <string name="action_title_nine">With jeep on Mount Belles or Lake Kerkini</string>
+    <string name="action_adress_nine">...at mountain Belles</string>
+
+    <!-- Places for Food names and places to do them for FoodActivity [CHAR LIMIT=200] -->
+    <string name="food_title_one">"Elodia" ~ Local Greek cuisine </string>
+    <string name="food_adress_one">tel.23270/41502...at Lake Kerkini</string>
+
+    <string name="food_title_two">"Dionysus" ~ Tavern - cooked and grill</string>
+    <string name="food_adress_two">tel.23270/41215...at Kerkini village</string>
+
+    <string name="food_title_three">"Beles Plateau" ~ Barbecue - grilled and cooked</string>
+    <string name="food_adress_three">tel.2327051467...at Ano Poroia village</string>
+
+    <string name="food_title_four">"Evora" ~ Tavern - cooked</string>
+    <string name="food_adress_four">tel.23270/23395...at Makrinitsa village</string>
+
+    <!-- Places for sleep names and places to do them for HotelsActivity [CHAR LIMIT=200] -->
+    <string name="hotel_title_one">Hotel"Epavlis"*** </string>
+    <string name="hotel_adress_one">tel.23270 28180...at Kato Poroia village</string>
+
+    <string name="hotel_title_two">Hotel and Spa"Refanidis"*** </string>
+    <string name="hotel_adress_two">tel.2327028000...at Kato Poroia village</string>
+
+    <string name="hotel_title_three">Hotel"Erodios"**</string>
+    <string name="hotel_adress_three">tel.302325028070...at Lithotopos village</string>
+
+    <string name="hotel_title_four">Hotel"Morfi" </string>
+    <string name="hotel_adress_four">tel.2327041036...at Kerkini village</string>
+</resources>

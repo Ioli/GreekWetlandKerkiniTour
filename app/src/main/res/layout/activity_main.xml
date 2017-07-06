@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!---
+    * Copyright (C) 2017 The Android Open Source Project
+    * This app "Greek Wetland Kerkini Tour"
+    * has real informations and images. It is a guide to travel at lake Kerkini
+    * Is created with android studio 2.3.1
+    * as exercise for Android Basics by Google Nanodegree Program
+    * "Tour Guide app " by Dimitra Christina Nikolaidou
+    */
+-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.admin.greekwetlandkerkinitour.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_marging"
+        android:src="@drawable/birds_kerkini" />
+
+    <!-- Actions category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_actions">
+        <TextView
+            android:id="@+id/actions"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_actions" />
+    </FrameLayout>
+
+    <!-- Hotels category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hotels">
+        <TextView
+            android:id="@+id/hotel"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_hotels" />
+    </FrameLayout>
+
+    <!-- Food category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_food">
+        <TextView
+            android:id="@+id/food"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_food" />
+    </FrameLayout>
+
+    <!-- Photos category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_photos">
+        <TextView
+            android:id="@+id/photos"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_photos" />
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>
